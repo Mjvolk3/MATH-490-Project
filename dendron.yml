@@ -115,6 +115,8 @@ publishing:
         payload:
             - notes
     theme: light
+    enableHierarchyDisplay: false
+    siteFaviconPath: mind-map.png
     giscus:
         id: comments
         repo: Mjvolk3/MATH-490-Project

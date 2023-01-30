@@ -17,6 +17,9 @@
         "editor.suggest.showSnippets": true,
         "editor.tabCompletion": "on",
         "dendron.enableSelfContainedVaultWorkspace": true
+        "workbench.colorCustomizations": {
+            "titleBar.activeBackground": "#85289595"
+        }
     },
     "extensions": {
         "recommendations": [
