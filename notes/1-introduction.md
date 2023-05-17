@@ -2,7 +2,7 @@
 id: 6je8bh4fpqfkr49ekm38lml
 title: 1 Introduction
 desc: ''
-updated: 1671080149355
+updated: 1684347896721
 created: 1670641852737
 enableGiscus: true
 ---
@@ -18,6 +18,7 @@ One of the major motivations for the message passing framework is the fact that 
 [^1]: [Graph Representation Learning Book](https://www.cs.mcgill.ca/~wlh/grl_book/)
 
 Here we present the message passing framework as presented by the popular [PyTorch Geometric Library](https://pytorch-geometric.readthedocs.io/en/latest/index.html). This definition of message passing will be used to define the different types of message passing neural networks.
+
 
 > $$
 > \mathbf{x}_i^{(k)}=\gamma^{(k)}\left(\mathbf{x}_i^{(k-1)}, \square_{j \in \mathcal{N}(i)} \phi^{(k)}\left(\mathbf{x}_i^{(k-1)}, \mathbf{x}_j^{(k-1)}, \mathbf{e}_{j, i}\right)\right)
